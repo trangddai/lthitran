@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-contact.css">
+    <title>Trang Le - Contact me</title>
+</head>
+<body>
+ <header>   
+    <div class="wrapper">
+        <nav>
+            <a href="home.html"> Home </a>
+            <a href="about-me.html"> About Me </a>
+            <a href="growth.html"> My Growth </a>
+            <a href="contact-me.html"> Contact Me </a>
+        </nav> 
+    </div>
+ </header>
+ <main>
+    <section>
+        <h2>Let's chat!</h2>
+        <p>Feel free to  fill out the form below or use the provided contact details to get in touch. I look forward to hearing from you soon!</p>
+        <div class="frame">
+            <div class="column"><img src="./images/contact.jpg" alt="contact"></div>
+            <div id="contact-text" class="column">
+                <form action="mailto:trangdai.lttd@gmail.com" method="post">
+
+                    <label for="Yname">Your Name</label>
+                    <input type="text" id="yname" name="yourname" placeholder="Your name..">
+                
+                    <label for="Yemail">Your Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+                
+                    <label for="Subject">Subject</label>
+                    <select id="Subject" name="Subject">
+                      <option value="question">Question</option>
+                      <option value="request">Request</option>
+                    </select>
+                
+                    <label for="ymessage">Your Message</label>
+                    <textarea id="ymessage" name="ymessage" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
+            </div>
+        </div>
+    </section>
+    <div class="sociallink">
+        <h4> More ways to contact me: </h4>
+        <span><a href="https://github.com/trangddai/" target="_blank"><img src="./logo/Github.JPG" alt="Github" width="30em"></a></span>
+        <span><a href="https://linkedin.com/in/trangddai" target="_blank"><img src="./logo/LinkedIn.JPG" alt="LinkedIn" width="30em"></a></span>
+        <span><a href="mailto:trangdai.lttd@gmail.com" target="_blank"><img src="./logo/email.JPG" alt="Mail" width="35"></a></span>
+    </div>
+ </main>
+</body>
+</html>

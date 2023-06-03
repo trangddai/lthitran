@@ -1,0 +1,88 @@
+@font-face {
+    font-family: komika;
+    src: url(./Fonts/komika-hands/KOMIKAH_.ttf);
+}
+@font-face {
+    font-family: gentinum;
+    src: url(./Fonts/gentium-basic/GenBkBasI.ttf);
+}
+@font-face {
+    font-family: charlotte;
+    src: url(./Fonts/charlotte/charlotte.ttf);
+}
+@font-face {
+    font-family: wulkan;
+    src: url(./Fonts/wulkan-display/WulkanDisplayRegular.ttf);
+}
+
+*{
+    font-family: bold wulkan;
+    box-sizing: border-box;
+    padding-bottom: 0.5em;
+    line-height: 2em;
+    background-color: #FFFBF6;
+    text-align: center;
+}
+html{
+    font-size: 22px;
+    margin-top: 0.5em;
+}
+header main footer {
+    margin: 0 auto;
+    max-width: 2000px;
+}
+h1, h3{
+    text-align: center;
+    font-family: wulkan;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+p{
+    font-family: gentinum;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+header{
+    padding: 1em 0;
+}
+nav{
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: #f9ebea ;
+}
+nav a{
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #f58f83;
+    background-color: #f9ebea ;
+    font-size: 18px;
+    font-weight:bold;
+
+}
+nav a:hover{
+    background-color: #FFFBF6 ;
+    border-radius: 30%;
+}
+.testimonial{
+    padding: 30px 100px;
+}
+article h1:after {
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+}
+article img{
+    height: 15em; 
+    width: 15em;
+    border: 2px solid snow;
+    border-radius: 50%;
+}
